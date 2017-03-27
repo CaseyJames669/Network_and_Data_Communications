@@ -1,0 +1,24 @@
+<hwml>
+     <assignment chapter="7" book_edition="5" student="Casey">
+          <problem number="6">
+		  Yes. In fact, in Fig. 7-3 we see an example of a duplicate IP address. Remember that
+		  an IP address consists of a network number and a host number. If a machine has two
+		  Ethernet cards, it can be on two seperate networks, and if so, it needs two IP
+		  addresses.
+          </problem>
+		  <problem number="28">
+		  A hyperlink consists of <a href="..." and </a>
+		  In between them is the clickable text.
+		  It is possible to put an image here.
+		  For example,
+		  <a href="http://www.whatever.com/image"><img src=http://www.whatever.com/im/im2></a>
+		  </problem>
+		  <problem number="42">
+		  768000000
+		  </problem>
+		  <problem number="43">
+		  No, hte error will run through and only affect that frame, the MPEG will keep
+		  rolling with the next frame.
+		  </problem>
+     </assignment>
+</hwml>

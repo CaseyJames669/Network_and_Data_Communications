@@ -1,0 +1,36 @@
+<hwml>
+     <assignment chapter="1" book_edition="5" student="Casey">
+          <problem number="17">
+				With UDP computer applications can send messages to other 
+				hosts on an IP network without prior communications to set up special 
+				transmission channels or data paths. UDP provides checksums for data 
+				integrity, and port numbers for addressing different functions at the 
+				source and destination of the datagram. TCP provides reliable, 
+				ordered delivery of a stream of octets.
+		  </problem>
+          <problem number="2">
+		  		The LAN model can be grown incrementally. If the LAN is just a long 
+				cable. It cannot be brought down by a single failure (if the servers 
+				are replicated) It is probably cheaper.
+				It provides more computing power and better interactive interfaces.
+          </problem>
+		  <problem number="6">
+		  		160,000/300,000 sec -> Approximately 533 msec.
+		  </problem>
+		  <problem number="13">
+		  		Negotiation has to do with getting both sides to agree on some 
+				parameters or values to be used during the communication.
+				Maximum packet size is an example.
+		  </problem>
+		  <problem number="10">
+		  		Advantages: 
+				Associated with protocol layering is that it allows protocol 
+				designers to focus on each layer independently. 
+				By defining well understood interfaces between layers, a given protocol 
+				layer can be easily replaced with a different implementation.
+				Disadvantage: 
+				Often higher layers of the protocol stack are unable to 
+				optimize data transfers based on the characteristics of underlying layers. 
+		  </problem>
+     </assignment>
+</hwml>

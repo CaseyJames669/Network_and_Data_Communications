@@ -1,0 +1,30 @@
+<hwml>
+     <assignment chapter="3" book_edition="5" student="Casey">
+          <problem number="6">
+				011110111110011111010
+		  </problem>
+          <problem number="20">
+		  		160bits
+          </problem>
+		  <problem number="22">
+		  		7
+		  </problem>
+		  <problem number="35">
+		  		772 bits, or if only data bits are considered, 768
+		  </problem>
+          <problem number="36">
+		  		PPP was designed to be used with modems, and modems accept
+				and transmit data in units of 1 byte, not 1 bit.
+		  </problem>
+          <problem number="37">
+		  		Minimum: 6 Bytes
+				Maximum: 300 bits
+		  </problem>
+          <problem number="38">
+		  		IP valid data load 100Byte, ADSL protocol stack for PPPoE,
+				PPPoE's header for 48bit is 6byte, then a total of 106 Byte 
+				need to transfer out, and a size of the ATM cell is 53Byte, then
+				there will be 2 ATM cells transmitted.
+		  </problem>
+     </assignment>
+</hwml>

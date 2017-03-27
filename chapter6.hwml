@@ -1,0 +1,22 @@
+<hwml>
+     <assignment chapter="6" book_edition="5" student="Casey">
+          <problem number="24">
+          		Each sample occupies 4 bytes. This gives a total of
+                256 samples/packet. There are 44,100 samples/sec,
+                so with 256 samples/packet, it takes 44100/256
+                or 172 packets to transmit one second's worth of
+                music.
+          </problem>
+		  <problem number="28">
+		  		Maximum IP packet is 65,535 bytes, out of which 20
+                is used for IP headers. TCP header is 20 bytes.
+                So 65,535 - 20 - 20 would be 65,495 bytes.
+		  </problem>
+		  <problem number="32">
+          		RTT = 30 msec
+				RTT1 = 0.9 * 30 + (1 – 0.9) * 26 = 29.6
+				RTT2 = 0.9 * 29.6 + (1 – 0.9) * 32 = 29.84
+				RTT3 = 0.9 * 29.84 + (1- 0.9) * 24 = 29.256
+		  </problem>
+     </assignment>
+</hwml>

@@ -1,0 +1,22 @@
+#8
+Only a single winner in this approach and it's going to be the
+node with the highest bit address. Leaving the low numbered nodes
+to be starved from sending packets.
+#27
+1)Time take to error correcting is less than doing detection and retransmission.
+This uses less bandwidth overall.
+2)In detection and retransmission if back messaging occurs more bandwidth will
+be used.
+#35
+Privacy - the potential exists for tag "sniffing". Like ethernet networks, wireless
+tag communications are subject to capture and analysis.
+The information inside RFID tags is vulnerable to alteration, corruption and
+deletion.
+#37
+Store and forward switches receive an entire packet before they begin sending any
+data at all. Cut through switches can receive the first few bytes of a packet,
+decide which port/ports to send it on, and then start sending out the packet
+while the rest of the packet is still being received.
+Cut through switching only works if both ports are operating at the same speed.
+Cut through switching only works if the output port/ports happen to be 
+available while a packet is being received.

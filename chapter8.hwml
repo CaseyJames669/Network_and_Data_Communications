@@ -1,0 +1,26 @@
+<hwml>
+     <assignment chapter="8" book_edition="5" student="Casey">
+          <problem number="40">
+		  	Yes, but every message would have to have to security key and reciever's
+			public key sent with it. They would also need to send the signed hash
+			to verify every messages integrity.
+		  </problem>
+          <problem number="5">
+		  	01000 00101 01100 01100 01111 11011 10111 01111 10010 01100 00100
+			The above binary will decode into "hello world", I'm not positive I
+			understood the question 100% but the key would start with a = 00001
+			to z = 11010 and a space = 11011
+		  </problem>
+		  <problem number="8">
+		  	On average, Trudy will error about half(1/2) the time.
+		  </problem>
+		  <problem number="32">
+		  	Alice (x=12) to Bob (n, g, g^x mod n)
+			(227, 5, 82)
+			Bob (y=3) to Alice (g^y mod n)
+			(125)
+			Alice computes ((g^y mod n)^x) = (g^xy mod n)
+			125^12 = 14551915228366851806640625
+		  </problem>
+     </assignment>
+</hwml>

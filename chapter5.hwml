@@ -1,0 +1,24 @@
+<hwml>
+     <assignment chapter="5" book_edition="5" student="Casey">
+          <problem number="1">
+				File transfer, remote login, and video on demand need
+                connection-oriented service. On the other hand, credit card
+                verification and other point-of-sale terminals, electronic
+                funds transfer, and many forms of remote database access are
+                inherently connectionless, with a query going one way and
+                the reply coming back the other way.
+		  </problem>
+          <problem number="26">
+		  		Call B networks range from 128-191 (or 64 possible values)
+                over their first 8 bits. Therefore, the number of networks
+                had class B used 20 bits to represent the network part of
+                the address would have been 64 * 2^12 = 262,144.
+          </problem>
+		  <problem number="27">
+		  		195.63.21.130
+		  </problem>
+		  <problem number="28">
+		  		4094 hosts
+		  </problem>
+     </assignment>
+</hwml>
